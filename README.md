@@ -1,24 +1,8 @@
 # README
+For this to run you need to run `rake secret` keep note of the secret and add it to rails credentials liike this `EDITOR=nano rails credentials:edit` and add the following code 
+```
+devise:
+  jwt_secret_key: <rake secret key>
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`ctrl+x -> y -> enter`
