@@ -6,3 +6,5 @@ devise:
 ```
 
 `ctrl+x -> y -> enter`
+
+Now create a new `.env` file `touch .env` on the top level of the app, and add `DEVISE_JWT_SECRET_KEY=<rake secret key>`.
